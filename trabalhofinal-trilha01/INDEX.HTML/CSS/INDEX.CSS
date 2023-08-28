@@ -1,0 +1,153 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../imagens/spidermanheader.jpg);
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center ;
+    padding: 30px;
+}
+
+nav ul {
+    display: flex;
+    gap: 70px;
+    color: white;
+    list-style: none;
+}
+
+nav ul li {
+    font-weight: 900;
+    text-decoration: underline solid #fe7467 3px;
+}
+
+
+.link_nav {
+    text-decoration: none;
+    color: white;
+}
+
+header section {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.nomespider {
+    width: 400px;
+    padding: 30px;
+    margin: 5%;
+}
+
+
+
+.blocothor {
+    display: flex;
+    background-image: url(../imagens/thor_header.jpg);
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+.conteudothor {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    gap: 80px;
+    align-items: center;
+    flex-direction: column;  
+    margin-block: 50px;
+    margin-inline: 50px; 
+}
+
+.textothor {
+    display: flex;
+    justify-content: end;
+    width: 100%;    
+}
+
+.textothor p {
+    width: 400px;
+}
+
+
+
+
+.catalogo {
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo2222 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 50px;
+    margin-inline: 50px;
+    max-width: 1000px;
+    width: 100%;
+    gap: 40px;
+}
+
+.catalogo2222 {
+    color: #505050;
+}
+
+.imagemboneco {
+    width: 500px;
+}
+
+.conteudocatalogo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.conteudocatalogo p {
+    width: 400px;
+}
+
+.botaobonecos {
+    margin-top: 20px;
+    background-image: linear-gradient(to bottom, #fe7467, #fc3836);
+    border: 0px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.conteudobonecos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .conteudocatalogo {
+        flex-direction: column-reverse;
+    }
+    
+    .botaobonecos {
+        margin-inline: auto;
+        align-items: center;
+    }
+
+}
